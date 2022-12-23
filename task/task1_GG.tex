@@ -4,20 +4,25 @@
 \usepackage[T1]{fontenc} 
 \usepackage{graphicx}
 
+
+
 \begin{document}
 \title{Werkzeuge für das wissenschaftliche Arbeiten}
-\subtitle{Python for Machine Learning and Data Science\\
-Abgabe: 9.12.2022}
-\maketitle
+\subtitle{Python for Machine Learning and Data Science}\\
+\subtitle{Abgabe: 9.12.2022}
 
 \tableofcontents
 
 \section{1. Projektaufgabe}
 In dieser Aufgabe beschäftigen wir uns mit Objektorientierung in Python.
 Der Fokus liegt auf der Implementierung einer Klasse, dabei nutzen wir insbesondere auch Magic Methods.\\
-\\
-\includegraphics[width=10cm]{./../diagram/classes_files_ls.pdf}\\
-\captation{Abbildung 1: Darstellung der Klassenbeziehungen.}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=10cm]{diagram/classes_files.pdf}
+    \caption{Abbildung 1: Darstellung der Klassenbeziehungen.}
+    \label{fig:my_label}
+\end{figure}
 
 \subsection{Einleitung}
 Ein Datensatz besteht aus mehreren Daten, ein einzelnes Datum wird durch ein Objekt der Klasse "DataSetItem" repräsentiert.
@@ -29,14 +34,12 @@ Es gibt eine Klasse "DataSetInterface", die die Schnittstelle definiert und Oper
 Bisher fehlt aber noch die Implementierung eines Datensatzes mit allen Operationen.\\
 \\
 Implementieren Sie eine Klasse "DataSet" als eine Unterklasse von "DataSetInterface".\\
-\\
 
 \subsection{Aufbau}
 Es gibt drei Dateien, "dataset.py", "main.py" und "implementation.py"$^*$.
 In der "dataset.py" befinden sich die Klassen "DataSetInterface" und "DataSetItem",
 in der Datei "implementation.py" muss die Klasse "DataSet" implementiert werden.
 Die Datei "main.py" nutzt die Klassen "DataSet" und "DataSetItem" aus den jeweiligen Dateien und testet die Schnittstelle und Operationen von "DataSetInterface".\\
-\\
 
 \subsection{Methoden}
 Bei der Klasse "DataSet" sind insbesondere folgenden Methoden zu implementieren, die genaue Spezifikation finden Sie in der "dataset.py":\\
