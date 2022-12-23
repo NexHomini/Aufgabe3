@@ -1,6 +1,6 @@
 # __LaTeX-Unterlagen__
 
-"In diesem Repository befinden sich die LaTeX-Unterlagen zum Modul."
+"In diesem Repository beinden sich die LaTeX-Unterlagen zum Modul."
 
 ## __Inhalt__
 
