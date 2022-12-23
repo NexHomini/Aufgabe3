@@ -9,7 +9,6 @@ Der Inhalt entspricht dem Text der Aufgabe 2 des Modul.
 Es kann sinnvoll sein, sich die PDF zur Aufgabe zwei noch einmal
 anzusehen
 
-
 ## __PDF Erstellen__
 
 Das geht ganz schnell und einfach:
